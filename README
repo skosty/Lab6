@@ -1,0 +1,44 @@
+Susannah Kosty
+skosty@utexas.edu
+sk27622
+
+
+To compile: 
+
+  javac *.java
+
+To run:
+
+  java ACS <-r> userList fileList
+
+The format of userList is: 
+
+  user_name   user_group
+
+The format of fileList is: 
+
+  filename    file_owner    mode_octal     
+
+
+The -r option prohibits the creation of the root user, as per the assignment page. By default, a root user is created with full access. 
+
+%%%%%%%%% Input: 
+
+Actions are input at the prompt using the format: 
+
+	Action    user      file     <mode> 
+
+%%%%%%%%%%  Output:
+
+After each action, a message is output to std.out. The typical message is of the format
+
+	Action    running_user     running_group     exit_status
+
+For files that have not been acted upon, requesting access and being denied results in running_user and running_group to be output as null, because these fields have not been instantiated yet. 
+
+Improperly formatted requests result in an error message. For the CHMOD action, improperly formatted octal strings are caught, and the default value of 0700 is used. There is no check on the mode to determine if all digits are in base 8. Any mode that is not in base 8 will result in a runtime error (0900 for instance). 
+
+The EXIT action outputs the current state of the system to the file state.log in the working directory. The location of state.log is output to std.out. 
+
+
+
