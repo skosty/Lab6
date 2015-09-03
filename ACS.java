@@ -1,9 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -16,14 +10,8 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-/**
- *
- */
 public class ACS {
 
-  /**
-   * @param args the command line arguments
-   */
   public static void main(String[] args) {
     // Sort out arguments passed 
     boolean makeRoot = true;
@@ -107,8 +95,5 @@ public class ACS {
    
         
   } // end main 
-  
-  
-  
   
 } // end class 
