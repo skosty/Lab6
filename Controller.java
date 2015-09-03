@@ -1,9 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -11,9 +5,6 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.Map;
 
-/**
- *
- */
 public class Controller {
   
   private Map<String,String> User2Group;
@@ -364,8 +355,5 @@ public class Controller {
     
     return null;
   }
-  
-  
-  
   
 } // end Controller 
