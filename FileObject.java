@@ -1,12 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
-/**
- *
- */
 public class FileObject {
   
   String name;
@@ -71,11 +62,5 @@ public class FileObject {
   public String getRunningUser(){
     return this.running_user;
   }
-  
-  
-  //************ 
-  
-  
-  
   
 } // end FileObject 
