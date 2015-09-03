@@ -1,12 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
-
-/**
- *
- */
 public enum ACTION {
 
   READ,
@@ -14,6 +6,5 @@ public enum ACTION {
   EXECUTE,
   CHMOD,
   EXIT;
-  
   
 }
